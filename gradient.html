@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gradient</title>
+	<style type="text/css">
+    body {
+    	background-color: lightcoral;
+       }
+       p {
+       	font-size:1in;
+       	background: linear-gradient(yellow,blue,orange,green,red);
+       }
+       div{
+       	width: 300px;
+       	height: 300px;
+       	margin: 20px;
+       	float: left;
+       }
+       </style>
+</head>
+<body>
+<p>Ми вивчаэмо градієнти</p>
+<div style="background: linear-gradient(blue,yellow);"></div>
+<div style="background: linear-gradient(to left,blue,yellow);"></div>
+<div style="background: linear-gradient(45deg,blue,yellow);"></div>
+<div style="background: linear-gradient(225deg,blue,yellow);"></div>
+<div style="background: linear-gradient(45deg,blue 0% 50%,yellow);"></div>
+<div style="background: linear-gradient(45deg,blue 0% 50%,yellow 70% 100%);"></div>
+<div style="background: linear-gradient(45deg,blue 0% 50%,yellow 50% 100%);"></div>
+<div style="background: linear-gradient(blue 0% 50%,yellow 50% 100%  );width: 400px, height: 200px;"></div>
+<div style="background: radial-gradient(blue,yellow);"></div>
+<div style="background: radial-gradient(blue 30%,yellow 70%);"></div>
+<div style="background: radial-gradient(circle at 75px 75px,blue 30%,yellow 70%);"></div>
+<div style="background: radial-gradient(circle at 0px 150px,blue 30%,yellow 70%);"></div>
+<div style="background: radial-gradient(red 40%,green 40%);"></div>
+<div style="background: conic-gradient(yellow,blue,orange,green,red);"></div>
+<div style="background: conic-gradient(at 25% 25%,yellow,blue,orange,green,red);"></div>
+<div style="background: conic-gradient(from 90deg,yellow,blue,orange,green,red);"></div>
+<div style="background: repeating-linear-gradient(blue 20px,yellow 40px);"></div>
+<div style="background: repeating-linear-gradient(blue 40px,yellow 80px);"></div>
+<div style="background: repeating-linear-gradient(blue 10%,yellow 20%);border-radius: 25%"></div>
+<div style="background: repeating-linear-gradient(blue 0% 10%,yellow 10% 20%);border-radius: 50%"></div>
+<div style="background: repeating-linear-gradient(red 30% 40%,orange 50% 60%);border-radius: 50%"></div>
+<div style="background: repeating-linear-gradient(green 30% 40%,black 50% 60%);border-radius: 50%"></div>
+<div style="background: radial-gradient(yellow 40%,blue 40%);"></div>
+<div style="background: repeating-radial-gradient(yellow 10%, blue 20%); border-radius: 25%;"></div>
+<div style="background: repeating-radial-gradient( yellow 0% 10%, blue 10% 20%); border-radius: 50%;"></div>
+</style>
+</style>
+</body>
+</html>
